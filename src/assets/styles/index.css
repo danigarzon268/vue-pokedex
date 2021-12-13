@@ -54,6 +54,7 @@ a {
   margin: 0 auto;
   padding: 35px 0;
   max-height: calc(100vh - 80px);
+  /* justify-content: center; */
 }
 
 h1 {
