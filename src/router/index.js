@@ -22,6 +22,15 @@ const routes = [
       layout: "default",
       title: "PokeList"
     }
+  },
+  {
+    path: "/*",
+    name: "404",
+    component: () => import("@/views/PageNotFound.vue"),
+    meta: {
+      layout: "default",
+      title: "404"
+    }
   }
 ];
 

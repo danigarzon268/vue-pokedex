@@ -39,7 +39,7 @@
         :class="{ active: isFavorite }"
       />
       <div v-if="message" class="box-message absolute">
-        <p>{{message}}</p>
+        <p>{{ message }}</p>
       </div>
     </div>
   </div>
@@ -56,22 +56,21 @@ export default {
     return {
       isFavorite: this.pokemon._isFavorite,
       message: null
-    }
+    };
   },
   methods: {
     sharePokemon() {
-      let types = this.pokemon.types.map(pok => pok.type.name)
-      let data = `Nombre: ${this.pokemon.name}, Altura : ${this.pokemon.height}, Peso: ${this.pokemon.weight}, Tipos : ${types}`
+      let types = this.pokemon.types.map(pok => pok.type.name);
+      let data = `Nombre: ${this.pokemon.name}, Altura : ${this.pokemon.height}, Peso: ${this.pokemon.weight}, Tipos : ${types}`;
       navigator.clipboard.writeText(data);
-      this.message = "Pokémon copied to clipboard ❤️"
+      this.message = "Pokémon copied to clipboard ❤️";
       setTimeout(() => {
-        this.message = null
+        this.message = null;
       }, 4000);
-
     },
     selectFavorite() {
       this.$store.commit(SET_POKEMON_TOGGLE_FAVORITE, this.pokemon.name);
-      this.isFavorite = !this.isFavorite
+      this.isFavorite = !this.isFavorite;
     }
   },
   computed: {
@@ -79,11 +78,9 @@ export default {
   },
   watch: {
     pokemon() {
-      this.isFavorite = this.pokemon._isFavorite
-      
+      this.isFavorite = this.pokemon._isFavorite;
     }
-  },
- 
+  }
 };
 </script>
 <style lang="scss" scope>
@@ -124,7 +121,7 @@ export default {
   box-shadow: 0px 0px 15px -9px #555;
   border-radius: 5px;
   p {
-    font-size: 15px
+    font-size: 15px;
   }
 }
 </style>

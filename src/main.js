@@ -22,7 +22,10 @@ Vue.component("app-loader", AppLoader);
 Vue.component("app-input", AppInput);
 Vue.component("app-button", AppButton);
 
-console.log("%c¡Detente!", "color: #f22539; font-size: 30px; font-weight: bold;");
+console.log(
+  "%c¡Detente!",
+  "color: #f22539; font-size: 30px; font-weight: bold;"
+);
 console.log(
   "%cSi alguien te dijo que pegaras algo acá, esta tratando de robar tu pokemón!",
   "color: #bfbfbf; font-size: 20px; letter-spacing: 20px; font-weight: bold;"

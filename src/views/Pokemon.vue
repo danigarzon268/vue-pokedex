@@ -107,7 +107,7 @@ export default {
     },
     selectFavorite(pokemon) {
       this.$store.commit(SET_POKEMON_TOGGLE_FAVORITE, pokemon.name);
-      this.pokemonDetails._isFavorite =  !this.pokemonDetails._isFavorite
+      this.pokemonDetails._isFavorite = !this.pokemonDetails._isFavorite;
     },
     search() {
       this.visiblePokemons = this.pokemonList.filter(pokemon => {
@@ -125,12 +125,10 @@ export default {
       this.visiblePokemons = this.pokemonList;
     },
     pokemonSelected(pokemon) {
-      
       this.$store.dispatch(POKEMON_GET_DETAILS, pokemon.name).then(result => {
         this.$refs.modalShowDetails.show();
         this.pokemonDetails = result;
         this.pokemonDetails._isFavorite = pokemon._isFavorite;
-
       });
     }
   },

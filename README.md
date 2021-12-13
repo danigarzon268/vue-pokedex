@@ -1,29 +1,23 @@
 
 <p align="center" width="100px"> 
-  <a href="https://pos.atienda.co/"  >
   
-  <img style='margin-top: 10px' width="480" src="https://plataforma.refacil.co/logo.png">
+  <img style='margin-top: 10px' width="150" src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png">
   </a>
 </p>
 
 <hr>
 
-## What is it? 
+## What is it? 👨‍💻
 
-_Refacil is a platform dedicated to the sale of digital products._
-
-## About Project 👨‍💻
-
-_This repository is dedicated to the frontend project of the Refacil platform, in it you can find all the resources and the structure of the platform_
-
+Pokedéx is a web application created in Vuejs for the Global66 technical test.
 ## Starting 🚀
 
 ```
 # Clone the repository
-git clone https://github.com/danigarzon268/refacil_front
+git clone https://github.com/danigarzon268/vue-pokedex
 
 # Access the created folder
-cd refacil_front
+cd vue-pokedex
 
 # Install the project dependencies
 npm install
@@ -49,17 +43,6 @@ yarn global add @vue/cli
 ```
 
 
-### Installation 🔧
-
-```
-# Clone the repository
-git clone https://github.com/danigarzon268/refacil_front.git
-
-
-# Install project dependencies
-npm install
-```
-
 
 ## Deployment 📦
 
@@ -76,28 +59,13 @@ npm install
 
 * [Vue](https://vuejs.org/) -It is the web framework used
 * [Npm](https://www.npmjs.com/) - Dependency manager
-* [Bootstrap Vue](https://bootstrap-vue.org/) - CSS framework used in front-end applications
-
-## Modules 🚧
-
-_The refacil structure is composed of different modules, these will be documented in the read me files_
-
-- [`Main Structure`](https://github.com/danigarzon268/refacil_front/blob/dev/src/README.md)
-- [`Router`](https://github.com/danigarzon268/refacil_front/blob/dev/src/router/README.md)
-- [`Store`](https://github.com/danigarzon268/refacil_front/blob/dev/src/store/README.md)
-- [`Components`](https://github.com/danigarzon268/refacil_front/blob/dev/src/components/README.md)
-
-
-## Versioned 📌
+* [Tailwindcss](https://tailwindcss.com/) - CSS framework used in front-end applications
+* [Sass](https://sass-lang.com/) - Css with superpowers
 
 ## Authors ✒️
 
-* **Juan David Restrepo** - *Initial Work* - [judare](https://github.com/judare)
-* **Daniela Garzón** - *Maintenance and documentation* - [danigarzon268](https://github.com/danigarzon268)
-
-## License 📄
-
+* [**Daniela Garzón**](https://github.com/danigarzon268)
 
 
 ---
-⌨️ con ❤️ por [danigarzon268](https://github.com/danigarzon268) 😊
+⌨️ Created with ❤️ by [danigarzon268](https://github.com/danigarzon268) 😊
