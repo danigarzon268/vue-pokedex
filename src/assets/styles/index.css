@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Lato:wght@100;300;400;700;900&display=swap');
+
+:root {
+  --color-yellow: #eca539;
+  --color-red: #f22539;
+  --color-secundary-red: #c00e20;
+  --color-primary-gray: #bfbfbf;
+  --color-primary-white: #e8e8e8;
+  --color-secundary-white: #f5f5f5;
+  --color-tertiary-white: #f9f9f9;
+  --color-main-bg: #e5e5e5;
+  --color-title-gray: #353535;
+  --color-paragraph-gray: #5e5e5e;
+
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+html, body {
+  overflow-x: hidden;
+}
+body {
+  background: var(--color-tertiary-white);
+}
+body, html, h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 35px 0;
+  max-height: calc(100vh - 80px);
+}
+
+h1 {
+  font-weight: Bold;
+  font-size: 36px;
+  line-height: 43px;
+  line-height: 100%;
+  color: var(--color-title-gray);
+}
+
+p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--color-paragraph-gray);
+}
+

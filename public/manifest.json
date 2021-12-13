@@ -1,0 +1,10 @@
+{
+  "name": "Refacil.co",
+  "short_name": "refacil",
+  "theme_color": "#216398",
+  "background_color": "#d99134",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "scope": "/",
+  "start_url": "/"
+}
